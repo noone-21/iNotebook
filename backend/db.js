@@ -1,5 +1,5 @@
 const mongoose=require('mongoose');
-const mongoURL=`mongodb+srv://${process.env.mongodb_username}:${process.env.mongodb_password}@${process.env.mongodb_clustername}.cmeuax1.mongodb.net/${process.env.mongodb_database}?retryWrites=true&w=majority&appName=Cluster0`
+const mongoURL=`mongodb+srv://${process.env.mongodb_username}:${process.env.mongodb_password}@${process.env.mongodb_clustername}.cmeuax1.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0`
 
 const connectToMongo = () =>{
     mongoose.connect(mongoURL,()=>{
