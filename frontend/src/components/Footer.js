@@ -3,7 +3,7 @@ import React from 'react'
 const Footer = () => {
     return (
         <div>
-            <footer className="text-center text-white fixed-bottom" >
+            <footer className="text-center text-white " >
                 <div className="container pt-4">
                     <div className="mb-4">
                         <a target='_blank' rel="noopener noreferrer"

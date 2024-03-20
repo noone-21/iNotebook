@@ -36,7 +36,7 @@ const SignUp = (props) => {
     );
   };
   return (
-    <div className='container my-3 ' >
+    <div className='container my-4 ' >
       <div className='row mx-6' style={{ marginLeft: '300px' }} >
         <div className='col-md-8 jumbotron' style={{ padding: '5% 4%' }} >
           <form onSubmit={userSignUp} >
